@@ -8,7 +8,7 @@ long_description = (this_directory / "README.md").read_text()
 
 setup(
     name="streamxml2json",
-    version="1.0.0.2",
+    version="1.0.0.3",
     packages=("streamxml2json",),
     url="https://github.com/rafaeelaudibert/streamxml2json",
     license="MIT",

@@ -13,7 +13,7 @@ $ pip install streamxml2json
 ## Usage
 
 ```python
-import stream_xml2json from streamxml2json
+from stream_xml2json import streamxml2json
 
 with open("input.xml", "rb") as input_file:
    stream_xml2json(input_file, "output.json", 2)
