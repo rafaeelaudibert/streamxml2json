@@ -1,5 +1,9 @@
 # Changelog
 
+## v1.0.0.1
+
+Add PyPi Description
+
 ## v1.0.0
 
 Initial release of the library

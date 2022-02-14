@@ -1,8 +1,13 @@
 from setuptools import setup
 
+
+long_description = ""
+with open("README.md") as readme:
+    long_description = readme.readlines()
+
 setup(
     name="streamxml2json",
-    version="1.0.0",
+    version="1.0.0.1",
     packages=("streamxml2json",),
     url="https://github.com/rafaeelaudibert/streamxml2json",
     license="MIT",
@@ -11,6 +16,7 @@ setup(
     install_requires=(),
     tests_require=(),
     description=("Simple library to stream a huge XML file to a JSON file"),
+    long_description=long_description,
     classifiers=(
         "License :: OSI Approved :: MIT License",
         "Programming Language :: Python :: 3",
