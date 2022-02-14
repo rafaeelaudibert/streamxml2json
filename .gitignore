@@ -39,6 +39,7 @@ htmlcov/
 .cache
 nosetests.xml
 coverage.xml
+.pytest_cache/
 
 # Translations
 *.mo
@@ -66,3 +67,6 @@ venv/
 
 # Vim swap files
 *.swp
+
+# Test generated files
+tests/data/generated_*.json
