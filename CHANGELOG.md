@@ -1,5 +1,9 @@
 # Changelog
 
+## v1.0.0.2
+
+Fix PyPi description to properly parse as Markdown
+
 ## v1.0.0.1
 
 Add PyPi Description
